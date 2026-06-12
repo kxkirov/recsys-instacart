@@ -1,0 +1,10 @@
+streamlit==1.39.0
+lightfm==1.17
+pandas==2.2.3
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.2
+mlxtend==0.23.1
+matplotlib==3.9.2
+joblib==1.4.2
+pyarrow==17.0.0

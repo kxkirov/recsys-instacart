@@ -1,0 +1,19 @@
+name: recsys777
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - scipy=1.13.*
+  - scikit-learn=1.5.*
+  - matplotlib=3.9.*
+  - seaborn=0.13.*
+  - jupyterlab=4.2.*
+  - pyarrow=17.*
+  - tqdm
+  - joblib
+  - lightfm=1.17
+  - mlxtend=0.23.*
+  - streamlit=1.39.*
+  - ipykernel

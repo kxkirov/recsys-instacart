@@ -1,0 +1,28 @@
+# Сырые данные (можно скачать с Kaggle по описанию в README)
+data/raw/
+
+# Логи и кэши
+logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Виртуальные окружения
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Notebooks (рабочие)
+notebooks/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Билды
+build/
+dist/
+*.egg-info/
