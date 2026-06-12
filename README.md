@@ -3,9 +3,8 @@ title: Recsys Instacart
 emoji: 🛒
 colorFrom: blue
 colorTo: red
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: app/main.py
+sdk: docker
+app_port: 8501
 pinned: false
 ---
 
