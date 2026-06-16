@@ -1,0 +1,29 @@
+# VCS
+.git
+.gitattributes
+
+# Сырые данные (не нужны в образе — приложение читает только data/processed)
+data/raw
+
+# Логи, кэши, ноутбуки
+logs
+notebooks
+**/__pycache__
+*.pyc
+.ipynb_checkpoints
+
+# Окружения и IDE
+.venv
+venv
+.vscode
+.idea
+environment.yml
+
+# Системное
+.DS_Store
+**/.DS_Store
+
+# Внутренние заметки (в образ не нужны)
+DEPLOY_BRIEF.md
+DEFENSE_BRIEF.md
+PROCESS_LOG.md
