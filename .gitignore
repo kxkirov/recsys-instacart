@@ -26,3 +26,11 @@ notebooks/
 build/
 dist/
 *.egg-info/
+# Секреты и окружение
+.env
+.env.*
+!.env.example
+
+# Личные материалы (диплом, черновые заметки, EDA-выгрузка с локальными путями)
+instacart/
+*.docx

@@ -15,11 +15,6 @@ from src.config import PROCESSED_DIR, MODELS_DIR, TOP_K
 from src.baselines import PopularityRecommender, UserTopReorderRecommender  # noqa
 from src.hybrid import HybridRecommender
 
-
-# ============================================================
-# Загрузка артефактов
-# ============================================================
-
 @st.cache_resource(show_spinner="Загрузка моделей...")
 def load_artifacts():
     train = load_npz(PROCESSED_DIR / "train_matrix.npz")
